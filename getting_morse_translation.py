@@ -31,9 +31,7 @@ for key, value in all.items():
     all[key] = value
 
 print(all)
-# with open('morse_translation.json', 'w') as fp:
-#     json.dump(all, fp)
-#
-# with open('morse_translation.json', 'r') as fp:
-#     file_load = json.load(fp)
+
+#Next step is to paste the result to https://www.npoint.io/. Then call the api in translator.py
+
 
