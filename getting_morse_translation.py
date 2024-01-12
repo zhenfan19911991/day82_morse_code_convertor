@@ -10,7 +10,6 @@ soup = BeautifulSoup(response.text, 'html.parser')
 
 morse_code_all = soup.select("table tr")
 
-morse_code_all[0]
 
 all = {}
 for item in morse_code_all[1:]:
